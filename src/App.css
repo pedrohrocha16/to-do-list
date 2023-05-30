@@ -7,7 +7,6 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
-  padding: 2vh;
 }
 .app {
   background: #000000ad;
@@ -80,7 +79,7 @@ input, select {
 
 
 
-@media (min-width: 425px) {
+@media (min-width: 375px) {
   .app {
     width: 90vw;
   }
