@@ -20,10 +20,11 @@ const TodoForm = ({addTodo}) => {
             <input type="text" placeholder="Digite o título" value={value} onChange={(e) => setValue(e.target.value)}/>
             <select value={category} onChange={(e) => setCategory(e.target.value)}>
                <option>Selecione uma categoria</option>
-               <option value="pessoal">Pessoal</option>
-               <option value="musica">Música</option>
-               <option value="estudos" >Estudos</option>
-               <option value="atividade">Atividade Física</option>
+               <option value="Pessoal">Pessoal</option>
+               <option value="Música">Música</option>
+               <option value="Estudos" >Estudos</option>
+               <option value="Atividade">Atividade</option>
+               <option value="Outras">Outras</option>
             </select>
             <button type="submit">Criar Tarefa</button>
          </form>
